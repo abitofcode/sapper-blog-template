@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "abitofcode_blog",
+  "description": "abitofcode_blog using charcas template",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -35,7 +35,7 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^4.0.4",
-    "sapper": "^0.27.0",
+    "sapper": "^0.27.12",
     "svelte": "^3.0.0"
   }
 }
