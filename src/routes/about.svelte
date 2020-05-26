@@ -24,9 +24,9 @@
 <div class="container">
   <h1>About</h1>
   <figure>
-    <img
-      src="franck-v-HuE1cJo-x34-unsplash.jpg"
-      alt="Image of a smiley robot." />
+  <img srcset="robot@1x.png 1x, robot@2x.png 2x"
+   src="robot@1x.png"
+   alt="Image of a smiley robot." />
     <figcaption>
       Photo by
       <a href="https://unsplash.com/@franckinjapan" target="_blank">Franck V</a>
