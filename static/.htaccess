@@ -1,0 +1,10 @@
+//Caching schema
+<FilesMatch "\.(jpg|css|png|woff2)$">
+Header set Cache-Control "public, max-age=0"
+</FilesMatch>
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
