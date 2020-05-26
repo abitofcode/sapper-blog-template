@@ -15,6 +15,7 @@ express() // You can also use Express
 			res.setHeader("Expires", new Date(Date.now() + 2592000000*30).toUTCString());
 		  }}),
 		//sirv('static', { dev, etag: false, maxAge: 3600}),
+		// sirv('static', { dev }),
 		sapper.middleware()
 	)
 	.listen(PORT, err => {

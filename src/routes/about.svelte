@@ -1,3 +1,7 @@
+<script>
+  import Image from "svelte-image";
+</script>
+
 <style>
   figure {
     float: right;
@@ -22,11 +26,18 @@
 </svelte:head>
 
 <div class="container">
+
+
   <h1>About</h1>
+
+  
   <figure>
-  <img srcset="robot@1x.png 1x, robot@2x.png 2x"
+  <!-- <img srcset="robot@1x.png 1x, robot@2x.png 2x"
    src="robot@1x.png"
-   alt="Image of a smiley robot." />
+   alt="Image of a smiley robot." /> -->
+   
+   <img src="franck-v-HuE1cJo-x34-unsplash.jpg" alt="wobot" />
+   <!-- <img src="test.jpg"  alt="parrot" /> -->
     <figcaption>
       Photo by
       <a href="https://unsplash.com/@franckinjapan" target="_blank">Franck V</a>

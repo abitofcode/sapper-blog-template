@@ -7,6 +7,7 @@ import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import marked from 'marked';
 import pkg from './package.json';
+import image from "svelte-image";
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -35,7 +36,10 @@ export default {
 			svelte({
 				dev,
 				hydratable: true,
-				emitCss: true
+				emitCss: true,
+				preprocess: {
+					...image(),
+				  }
 			}),
 			resolve(),
 			commonjs(),
@@ -77,6 +81,7 @@ export default {
 				generate: 'ssr',
 				dev
 			}),
+
 			resolve(),
 			commonjs(),
 			markdown()

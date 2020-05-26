@@ -29,10 +29,9 @@
     }
 
   .hills0 {
-    height: 400px;
     width: 100%;
     position: absolute;
-    top: 0;
+    bottom: 17%;
     left: 0;    
   }
     .hedge {
@@ -40,7 +39,7 @@
     /* height: 400px; */
     width: 100%;
     position: absolute;
-    bottom: 16%;
+    bottom: 17%;
     left: 0;    
   }
 </style>
