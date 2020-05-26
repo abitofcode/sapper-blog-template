@@ -11,8 +11,10 @@ console.log("MODE: " + dev)
 express() // You can also use Express
 	.use(
 		compression({ threshold: 0 }),
-		// express.static('static'),
-		sirv('static', { dev, etag: true, maxAge: 3600 }),
+		 express.static('static', {setHeaders: function(res, path) {
+			res.setHeader("Expires", new Date(Date.now() + 2592000000*30).toUTCString());
+		  }}),
+		//sirv('static', { dev, etag: false, maxAge: 3600}),
 		sapper.middleware()
 	)
 	.listen(PORT, err => {
