@@ -28,7 +28,7 @@
   }
 
   figcaption {
-    font-size: .8em;
+    font-size: 0.8em;
     font-style: italic;
   }
 
@@ -66,12 +66,23 @@
 
 <div class="home-container">
   <div class="home-copy">
-    <h1>Welcome to your new Sapper Blog</h1>
-    <p>Check out the docs on <a href="https://www.github.com/Charca/sapper-blog-template" target="_blank">GitHub</a> to get started.</p>
+    <h1>Welcome to abitofcode.com</h1>
+    <p>
+      Check out the docs on
+      <a
+        href="https://www.github.com/Charca/sapper-blog-template"
+        target="_blank">
+        GitHub
+      </a>
+      to get started.
+    </p>
   </div>
 
   <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
-    <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
+    <img alt="Person typing on laptop" src="undraw-illustration.svg" />
+    <figcaption>
+      Illustration thanks to
+      <a href="https://undraw.co" target="_blank">Undraw</a>
+    </figcaption>
   </figure>
 </div>
